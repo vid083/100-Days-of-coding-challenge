@@ -2,8 +2,6 @@
 Let us assume given number = 12345789899, find four adjacent digits which has largest sum
 All of 4 digit adjacent numbers extracted from number is: 1234, 2345, 3457, 4578, 5789, 7898, 8989, 9899
 From these 4 digit adjacent numbers, 9899 has highest sum = 9 +8+9+ 9 = 35
-
-str
 '''
 
 def largest_sum(n):
@@ -26,7 +24,6 @@ def largest_sum(n):
 largest_sum(123456789999)
 
 '''
-
             sum = 0
             for j in sub_string:
                 sum += int(j)
@@ -35,20 +32,15 @@ largest_sum(123456789999)
         # print(sum)
     print("largest number: ",largest)
         
-            
-            
-
 largest_sum(73167891129494951569329093999953362766142828064444860)
 
 
-
-flow chart and break down
+---------------------------
+flow chart and break down:
 
 1. convert number to string
 2. for loop for slicing numbers
 3. for loop to add numbers in sliced number --or-- convert str to list then find list sum
 4. find largest of the sum of digits in sliced number
 
-str to list conversion
-sum of list items
 '''
